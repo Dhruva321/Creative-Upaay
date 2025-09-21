@@ -1,22 +1,40 @@
-# Creative Upaay Dashboard - Pixel-matched scaffold
+Creative Upaay Dashboard
 
-This is a React + Tailwind + Redux Toolkit scaffold implementing the Creative Upaay dashboard UI.
-The implementation matches the Figma tokens you provided for the board area (typography, colors, card styles) and includes a Sidebar component.
+📌 Project Overview
+This project is a React + Tailwind + Redux Toolkit implementation of the Creative Upaay dashboard UI.  
+It matches the Figma tokens for typography, colors, and card styles, and includes features like task management, filters, drag & drop, and persistent state storage.
 
-## What is included
-- React app skeleton (src/)
-- Redux Toolkit slices for tasks and projects
-- Components: Sidebar, Column, TaskCard, AddTaskModal
-- Drag & drop using react-beautiful-dnd (used for board tasks)
-- Tailwind setup (basic)
 
-## How to run locally
-1. `npm install`
-2. `npm start`
-3. Open http://localhost:3000
+💻 Steps to Run Locally
+1. Clone the repository:
+   git clone https://github.com/Dhruva321/Creative-Upaay.git
+   cd Creative-Upaay
 
-## Notes
-- The project uses Inter font; add the Google Fonts link in `public/index.html` or include in CSS.
-- Styling is Tailwind-based and uses inline colors to exactly match Figma tokens provided.
-- State persists to localStorage.
+2. Install dependencies:
+   npm install
 
+3. Start the development server:
+   npm start
+
+4. Open http://localhost:3000 in your browser.
+
+
+🛠️ Technologies Used
+- React.js – Component-based UI framework
+- Redux Toolkit – State management with localStorage persistence
+- Tailwind CSS – Utility-first CSS for styling
+- react-beautiful-dnd – Drag & drop functionality for tasks
+- Vercel – Deployment & hosting
+
+
+⚠️ Known Limitations
+- Drag & drop only works on desktop browsers (mobile touch support is limited).
+- Current implementation persists state in localStorage, not a backend (so data is device-specific).
+- No user authentication; all users share the same state if deployed without backend integration.
+- Error handling and form validations (e.g., task creation) are minimal.
+
+🌐 Live Demo
+Creative Upaay Dashboard: https://creative-upaay-eta.vercel.app/
+
+📂 GitHub Repository
+GitHub Repo: https://github.com/Dhruva321/Creative-Upaay.git
